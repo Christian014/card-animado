@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: #FFFFFF;
+    background: #0E1218;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    
+    font-size: 1.6rem;
+    font-family: 'Prompt', sans-serif;
+}
+
+:root{
+    font-size: 65.2%;
+}
+
+main{
+
+    width: 45.0rem;
+    height: 70.0rem;
+    overflow: hidden;
+    background: #0E1218;
+    border: 2.0rem solid black;
+    border-radius: 5.0rem;
+
+    margin: 0 auto;
+    position: relative;
+}
+
+main .card-content{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+}
+
+main header{
+    padding-left: 5.0rem;
+    padding-top: 5.0rem;
+    padding-bottom: 2.0rem;
+}
+
+main .card-header{
+    display: flex;
+    gap: 2.0rem;
+    align-items: center;
+
+    
+}
+
+main .card-header .border-header{
+    display: flex;
+    border: 1px solid white;
+    border-radius: 50%;
+    align-items: center;
+}
+
+.card-header .border-header img{
+    width: 2.5rem;
+    margin: 10px;
+}
+
+.card-content .card-img img{
+    width: 30.0rem;
+    height: 30.0rem;
+
+    border-radius: 50%;
+    border: 5px solid #8257E5;
+
+}
+
+.card-content .card-info{
+    width: 20.0rem;
+    height: 20.0rem;
+    position: absolute;
+    top: 32.0rem;
+    left: 2.5rem;
+
+    background: linear-gradient(to top, #434343, #000000); 
+
+    opacity: 0.7;
+
+    border-radius: 5.0rem;
+
+    
+}
+
+.card-info .regulator-size{
+    width: 20.0rem;
+    height: 20.0rem;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 2.5rem;
+    
+    
+}
+
+.regulator-size .info-icon{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 1.0rem;
+}
+
+.card-footer{
+    position: absolute;
+    bottom: 0;
+}
+
+.card-footer footer{
+    display: flex;
+    gap: 1.0rem;
+    margin-left: 20rem;
+    margin-bottom: 1rem;
+}
+
+
+.card-img{
+
+    position: absolute;
+    right: -3.5rem;
+    top: 15rem;
+}
+
+.button{
+    margin-right: 50rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+}
+
+.button button{
+    border-style: none;
+    height: 5.9rem;
+    width: 23.0rem;
+    border-radius: 1.5rem;
+    color: white;
+    background: black;
+    cursor: pointer;
+}
+
+.button button:hover{
+    background: white;
+    color: black;
+}
+
+.button p{
+    font-family: 'Prompt';
+    font-size: 2.0rem;
+}
